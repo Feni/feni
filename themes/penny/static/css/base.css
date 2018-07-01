@@ -49,7 +49,7 @@ small {
 }
 
 article {
-  max-width: 48em;
+  max-width: 36em;
 }
 
 .container {
@@ -62,12 +62,12 @@ article {
   border-bottom: 1px solid #BEBEBE;
   border-bottom-style: dotted;
   padding-bottom: 1rem;
-  /* float: left; */
-  max-width: 48rem;
   letter-spacing: 0.09em;
   text-transform: uppercase;
   font-weight: 400;
   color: black;
+
+  max-width: 36rem;
 }
 
 a.unstyled {
@@ -84,4 +84,20 @@ ul.unstyled {
 header time {
   float: right;
   margin-top: -60px;
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .name {
+    margin: 20px 40px 0 40px;
+  }
+
+  .container {
+    padding: 40px;
+  }
+
+  header time {
+    margin-top: -40px;
+  }
 }
