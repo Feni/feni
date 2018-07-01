@@ -4,10 +4,14 @@
     <meta charset="utf-8">
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
     <link href="/css/base.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:700|Source+Serif+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700|Source+Serif+Pro" rel="stylesheet">
+    {{ block "extracss" . }}
+    {{ end }}
   </head>
   <body>
-    {{ partial "header" . }}
+    {{ block "header" . }}
+      {{ partial "header" . }}
+    {{ end }}
 
     {{ block "main" . }}
       <!-- The part of the page that begins to differ between templates -->

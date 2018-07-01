@@ -28,7 +28,7 @@ p + p {
 
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
-  font-weight: bold;
+  font-weight: 700;
   font-family: 'Raleway', sans-serif;
   line-height: 1.2;
   color: #222;
@@ -41,8 +41,8 @@ h1 {
   font-size: 3.157em;
 }
 h2 {font-size: 2.369em;}
-h3 {font-size: 1.777em;}
-h4 {font-size: 1.333em;}
+h3 {font-size: 1.777em; font-weight: 500;}
+h4 {font-size: 1.333em; font-weight: 300;}
 
 small {
   font-size: 0.75em;
@@ -57,16 +57,28 @@ article {
 }
 
 .name {
-  font-size: 1.777em;
+  font-size: 1.333em;
   margin: 40px 80px 0 80px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #BEBEBE;
+  border-bottom-style: dotted;
   padding-bottom: 1rem;
   /* float: left; */
   max-width: 48rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: black;
 }
 
-a.nostyle {
+a.unstyled {
   text-decoration: none;
+  color: inherit;
+}
+
+ul.unstyled {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 header time {
