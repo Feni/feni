@@ -1,0 +1,28 @@
+Design:
+
+Colors:
+
+Type Scale
+Base Size = 20px = 1.25em
+Perfect Fourth - 1.333 scale
+H1 = 3.157em
+H2=2.369em
+H3=1.777em
+H4=1.333em
+P=1em
+Line
+
+
+Font Stack:
+Header - Raleway - Bold
+Body - Libre Baskerville or PT Serif
+
+
+Logo:
+Raleway
+Letter spacing: 2.7
+
+Grid:
+20px grid
+
+

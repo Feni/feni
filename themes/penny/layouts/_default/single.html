@@ -1,7 +1,9 @@
 {{ define "main" }}
-<article>
-    My custom theme
-	<header>Title would go here</header>
+<article class="container">
+	<header>
+		<small><time datetime="{{.Date}}">{{ .Date.Format "January 2, 2006" }}</time></small>
+		<h1>{{ .Title }}</h1>
+	</header>
 	{{ .Content }}
 </article>
 {{ end }}

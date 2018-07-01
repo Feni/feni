@@ -70,8 +70,8 @@
         }
         
         .name {
-            color: #1176DA;
-            color: rgb(55, 93, 162);
+            /*color: #EC0008;*/
+            color: #333;
         }
     </style>
     
@@ -84,7 +84,7 @@
     <ul id="contents">
         {{- range (first 10 (where .Pages "Section" "posts")) -}}
         <li>
-            {{ $dateformat := .Site.Params.DateFmt | default "June 27, 2018" }}
+            {{ $dateformat := .Site.Params.DateFmt | default "Jan 2, 2006" }}
             <span><time datetime="{{.Date}}">{{ .Date.Format $dateformat }}</time></span>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </li>
