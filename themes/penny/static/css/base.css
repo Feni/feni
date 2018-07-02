@@ -100,4 +100,11 @@ header time {
   header time {
     margin-top: -40px;
   }
+
+  /* Scale down font sizes one step */
+  h1 {
+    font-size: 2.369em
+  }
+  h2 {font-size: 1.777em;}
+  h3 {font-size: 1.333em; font-weight: 500;}
 }
